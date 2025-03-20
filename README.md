@@ -9,8 +9,7 @@ call this class as “RemoteStringArray”. Clients can read and write into this
 through appropriate methods (read further for details). In addition, this object enforces
 concurrency control by using “read” and “write” locks.
 The client on the other hand interacts with user and executes various operations on individual
-strings of the array.
-
+strings of the array
 -----------------------------------------------------------------------------------------------------------
 RemoteStringArray Class
 At its core, the RemoteStringArray contains an array of strings (size of array specified through
