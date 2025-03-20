@@ -101,8 +101,6 @@ The client program takes a single command line parameter which is the name of th
 configuration file. The format of the configuration file will be as below:
 Bind name of the remote object
 Host name of the server
-
-
 Any other configuration parameters your implementation need
 Points to note:
 1. Make sure you handle the concurrency conditions correctly.
